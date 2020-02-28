@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Tesla Widget";
+}
+
+<style>
+    body {
+        /*font-family: Roboto, Montserrat, 'Segoe UI';*/
+        background-color: transparent!important;
+        color: white;
+    }
+
+    .vehicle-name {
+        font-size: 20px
+    }
+
+    .vehicle-odometer {
+        font-size: 16px
+    }
+
+    .vehicle-battery-percentage {
+        font-size: 16px
+    }
+
+    img {
+        width: 75px;
+        -webkit-filter: drop-shadow(2px 2px 2px #222);
+        filter: drop-shadow(2px 2px 2px #222);
+    }
+</style>
+
+<br />
+<div class="text-center" id="car-status">
+
+</div>
+
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/status.js"></script>
