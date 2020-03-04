@@ -6,6 +6,5 @@
         public string TESLA_CLIENT_SECRET { get; set; }
         public string TESLA_LOGIN { get; set; }
         public string TESLA_PWD { get; set; }
-        public string HUB_URL { get;set; }
     }
 }

@@ -11,7 +11,6 @@ Uses [tesla-net](https://github.com/spboyer/tesla-net) library as a reference. O
 Settings for your appsettings.Development.json file, suggest using secrets or ENV.
 
 ```json
-"HUB_URL": "https://localhost:44344/statusHub",
   "TIMER_SETTING": "10000",
   "Tesla": {
     "TESLA_CLIENT_ID": "81527cff06843c8634fdc09e8ac0abefb46ac849f38fe1e431c2ef2106796384",
@@ -22,7 +21,6 @@ Settings for your appsettings.Development.json file, suggest using secrets or EN
 
 **ENVIRONMENT VARS**
 
-`HUB_URL` - Just change the root url. This is the signalR Hub that the workerservice sends the data to.
 `TIMER_SETTING` - milliseconds for how often to refresh the data. I am using 15-30 minutes.
 `Tesla__TESLA_CLIENT_ID` - this might change, will update the readme
 `Tesla__TESLA_CLIENT_SECRET` - this might change, will update the readme
