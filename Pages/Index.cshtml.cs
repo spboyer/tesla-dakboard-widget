@@ -14,7 +14,7 @@ namespace TeslaWidget.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-         public IndexModel(ITeslaService service, ILogger<IndexModel> logger)
+         public IndexModel(ILogger<IndexModel> logger)
         {
               _logger = logger;
         }

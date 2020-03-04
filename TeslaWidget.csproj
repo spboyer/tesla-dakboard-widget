@@ -15,4 +15,10 @@
     <ProjectReference Include="..\..\..\source\repos\tesla-net\src\Tesla.NET\Tesla.NET.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\js\status.js">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
