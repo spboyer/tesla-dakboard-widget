@@ -351,3 +351,4 @@ MigrationBackup/
 
 appsettings.Development.json
 launchSettings.json
+Properties/launchSettings.json

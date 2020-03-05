@@ -18,5 +18,12 @@ namespace TeslaWidget.Models
         public double? EstBatteryRange { get; set; }
         public long? BatteryLevel { get; set; }
         public long VehicleId { get; internal set; }
+        
+        public string Image { 
+            get
+            {
+                return ChargingState == "Charging" ? "Tesla_Model_3_charging" : "Tesla_Model_3";
+            } 
+        }
     }
 }

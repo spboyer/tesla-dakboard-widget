@@ -14,7 +14,7 @@ connection.on("SendStatus", function (cars) {
         <div class="vehicle">
             <button type="button" style="width:150px; margin-bottom: 5px; opacity: 0.7" class="btn btn-secondary">${car.displayName}</button>
             <div>
-                <img src="/img/Tesla_Model_3.png">
+                <img src="/img/${car.image}.png">
                     </div>
                 <div class="vehicle-battery">${car.batteryRange.toFixed(0)} mi (<span class="vehicle-battery-percentage">${car.batteryLevel.toString()} %</span>)</div>
                 <div class="vehicle-odometer">${formatNumber(car.odometer.toFixed(0))}</div>
